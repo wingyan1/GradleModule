@@ -18,7 +18,7 @@ uploadArchives {
         pom.project {
             groupId project.PUBLISH_GROUP_ID
             artifactId project.PUBLISH_ARTIFACT_ID
-            version project.PUBLISH_VERSION
+            version '1.0'
         }
     }
 }
