@@ -26,9 +26,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-//    implementation 'com.github.xiaweizi:XWZWebView:1.1.0'
-//    implementation 'com.github.wingyan1:GradleModule:v1.0'
-
+    implementation 'com.github.wingyan1:GradleModule:1.1'
 }
 
 
