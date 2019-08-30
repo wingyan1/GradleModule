@@ -1,2 +1,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cm.wingsdk" />
+    package="com.cm.wingsdk" >
+
+    <application android:usesCleartextTraffic="true">
+        <activity android:name=".WYHello">
+
+            <intent-filter>
+                <action android:name="android.intent.action.Hello" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
